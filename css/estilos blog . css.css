@@ -1,0 +1,8 @@
+#blog .contenedor{
+	display: flex;
+	justify-content: center;
+}
+
+#blog article {
+	margin: 15px  ;
+}

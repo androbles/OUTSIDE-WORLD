@@ -2,7 +2,8 @@ body {
     background: url(../img/EA20A2FC-3F77-4248-A137-FFD283862751.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-attachment: ;	
+	background-attachment: fixed
+	;	
 }
 
 .fondo{
@@ -22,6 +23,7 @@ img{
 }
 
 h1{
+	margin: 10% ;
 	margin-left: 40% ;
 	color: white ;
 	margin-top: 16% ;
@@ -139,6 +141,9 @@ header label:hover{
 
 
 }
+
+
+/*Footer */
 
 
 

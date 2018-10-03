@@ -1,58 +1,4 @@
-body {
-    background: url(../img/EA20A2FC-3F77-4248-A137-FFD283862751.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-attachment: fixed
-	;	
-}
-
-.fondo{
-	background: #5b7989 ;
-	background-size: 100% ;
-	margin: 10%;
-}
-
-img{
-	width:70% ;
-	margin-left: 16% ;
-	margin-top: 4% ;
-	margin-bottom: 5% ;
-  
-	
-	
-}
-
-h1{
-	margin-left: 40% ;
-	color: white ;
-	margin-top: 16% ;
-	filter:drop-shadow(15px 20px 25px black);
-	font-family: helvetica  ;
-
-	
-
-
-}
-
-h2{
-	margin-left: 43% ;
-	font-size: 250% ;
-	color : white ;
-	font-family: helvetica;
-	
-}
-
-
-
-.titulo{
-	
-	height: 25% ;
-	background: #02010a ;
-}
-
-/*menu de navegacion */
-
-.menubody{
+.fondo {
 	margin: 0 ;
 	font-family: sans-serif;
 
@@ -60,10 +6,12 @@ h2{
 
 header{
 	width: 100% ;
-	background: #4E94AB ;
+	background: #333 ;
+
+
 }
 
-#btn-menu{
+#menu-bar{
 	display: none;
 }
 
@@ -72,7 +20,8 @@ header label {
 	width: 30px ;
 	height: 30px ;
 	padding: 10px ;
-	border-right: 1px solid #fff ;
+
+	 
 
 }
 
@@ -88,6 +37,8 @@ header label:hover{
 	list-style: none;
 	padding: 0 ;
 	display: flex;
+	flex-direction: row;
+	float: right;
 
 	
 }
@@ -112,9 +63,10 @@ header label:hover{
 /*medias*/
 
 
-@media (max-width: 768px){
+@media (max-width: 781px){
 	header label{
 		display: block;
+		float: right;
     }
 
     .menu{
@@ -122,11 +74,12 @@ header label:hover{
     	background: #4E94AB ;
     	width: 70% ;
     	margin-left: -70% ;
-    	transition: : all 1s ;
+    	transition: :  4s ;
     }
 
     .menu ul {
     	flex-direction: column;
+    	float: none;
 
     }
 
@@ -134,16 +87,12 @@ header label:hover{
     	border-top: 1px solid #fff ;
     }
 
-    #btn-menu:checked ~ .menu{
+    #menu-bar:checked ~ .menu{
     	margin: 0 ;
     }
 
 
 }
-
-
-/*Footer */
-
 
 
 
